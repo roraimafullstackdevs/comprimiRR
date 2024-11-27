@@ -21,10 +21,18 @@
 
 - **Python 3.6 ou superior**  
 - **Ghostscript** instalado no sistema  
-  - No Linux:  
+  - Ubuntu/Debian e Derivados:  
     ```bash
     sudo apt install ghostscript
-    ```  
+    ```
+  - Arch e Derivados:
+    ```bash
+    sudo pacman -S ghostscript
+    ```
+  - No Fedora:
+    ```bash
+    sudo dnf install ghostscript
+    ```
   - No macOS:  
     ```bash
     brew install ghostscript
